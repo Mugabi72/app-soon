@@ -1,20 +1,8 @@
 npm create vite@latest my-app -- --template react
 cd my-app
 npm install
-npm run dev
-  function Greeting({ name }) {
-  return <h2>Welcome, {name}!</h2>;
-}
-
-function App() {
-  return (
-    <>
-      <Greeting name="Elly" />
-      <Greeting name="Grace" />
-    </>
-  );
-}
-import { useState } from "react";
+npm run dev{
+  
 
 function App() {
   const [task, setTask] = useState("");
@@ -25,7 +13,22 @@ function App() {
     setTasks([...tasks, task]);
     setTask("");
   };
+import { useState } from "react";
 
+// Greeting Component
+function Greeting({ name }) {
+  return <h2>Welcome, {name}!</h2>;
+}
+
+// Main App Component
+export default function App() {
+  return (
+    <div>
+      <Greeting name="Elly" />
+      <Greeting name="Grace" />
+    </div>
+  );
+}
   const removeTask = (index) => {
     setTasks(tasks.filter((_, i) => i !== index));
   };

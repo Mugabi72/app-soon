@@ -50,6 +50,73 @@ export default function App() {
           </li>
         ))}
       </ul>
+
+
+
+designed to include:
+
+A complete React + Vite + Material UI application.
+
+A dark homepage with movie and TV show posters.
+
+Working Home, Movies, TV Shows, and My Watchlist pages.
+
+Live API integration and title search.
+
+Movie and TV show details pages.
+
+Genre filtering and a watchlist saved with localStorage.
+
+Responsive styling for mobile, tablet, and desktop.
+
+A README.md, .env.example, and GitHub/deployment instructions.
+
+A checklist for the two screenshots required by your lecturer.
+
+I’ll use a placeholder for your TMDB API key, so you can add your own credential without publishing it in the source code.
+
+One important note about the ZIP file
+I can provide the complete project files and a script that creates the project folder and ZIP on your computer, but I can't attach a verified ZIP archive directly from this chat.
+
+To make sure the project matches your assignment, the ZIP should have this structure:
+
+
+text
+CineBox-Movie-Discovery/
+├── index.html
+├── package.json
+├── .gitignore
+├── .env.example
+├── README.md
+├── public/
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── api.js
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Sidebar.jsx
+    │   ├── MovieCard.jsx
+    │   ├── MovieGrid.jsx
+    │   └── MovieDetails.jsx
+    ├── pages/
+    │   ├── Home.jsx
+    │   ├── Movies.jsx
+    │   ├── TVShows.jsx
+    │   └── Watchlist.jsx
+    └── styles/
+        └── styles.css
+What you need to do first
+Obtain your own TMDB API credential through the official TMDB website .
+
+Install Node.js  on your computer.
+
+Prepare the project files and run the application locally.
+
+Test all the required features before submitting.
+
+Remember: The finished ZIP is your source-code package, not the complete submission by itself. You will still need to push the code to GitHub, deploy the website, and capture the two screenshots required by your lecturer.
+
     </div>
   );
 }
